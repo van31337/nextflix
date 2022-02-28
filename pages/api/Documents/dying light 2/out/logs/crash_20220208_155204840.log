@@ -1,0 +1,944 @@
+{15:52:04.840} INFO: [FileSystem] > [CZip_dir::Initialize] 'c:/program files (x86)/steam/steamapps/common/dying light 2 / ph/source/data0.pak' took: 0.000000ms
+{15:52:04.861} INFO: [FileSystem] > [CZip_dir::Initialize] 'c:/program files (x86)/steam/steamapps/common/dying light 2 / ph/source/data1.pak' took: 0.000000ms
+{15:52:04.863} INFO: [FileSystem] > [CZip_dir::Initialize] 'c:/program files (x86)/steam/steamapps/common/dying light 2 / ph/source/databt.mpak' took: 0.000000ms
+{15:52:06.947} RETL: [GAME] > arguments (2): 'C:\Program Files (x86)\Steam\steamapps\common\Dying Light 2\ph\work\bin\x64\DyingLightGame_x64_rwdi.exe', '/nolightfx'
+{15:52:07.231} INFO: [FileSystem] > [CZip_dir::Initialize] 'c:/program files (x86)/steam/steamapps/common/dying light 2 / ph/source/data_lang/dataen.pak' took: 0.000000ms
+{15:52:07.249} INFO: [Renderer]   > [CVideoSettings::LoadSettings] Loading video settings using 'out/Settings/Video.scr'
+{15:52:07.512} INFO: [Renderer]   > [r_Initialize] Loaded from rd3d11_x64_rwdi.dll.
+{15:52:07.512} INFO: [Renderer]   > MonitorIdx=0, SecondaryMonitorIdx=-1
+{15:52:07.512} INFO: [Renderer]   > Enumerating D3D11 video adapters:
+{15:52:07.515} INFO: [Renderer]   > Adapter 0: NVIDIA GeForce RTX 2080 Ti 11049MB/16346MB/0MB
+{15:52:07.515} INFO: [Renderer]   |   Output 0: [0,0 - 2560,1440] \\.\DISPLAY1
+{15:52:07.515} INFO: [Renderer]   |   Output 1: [2560,0 - 6400,2160] \\.\DISPLAY2
+{15:52:07.515} INFO: [Renderer]   > Adapter 1: Microsoft Basic Render Driver 0MB/16346MB/0MB
+{15:52:07.516} INFO: [Renderer]   > Sorted adapter 0: NVIDIA GeForce RTX 2080 Ti 11049MB/16346MB/0MB
+{15:52:07.516} INFO: [Renderer]   > Sorted adapter 1: Microsoft Basic Render Driver 0MB/16346MB/0MB
+{15:52:07.516} INFO: [Renderer]   > Picking adapter: NVIDIA GeForce RTX 2080 Ti
+{15:52:07.516} INFO: [Renderer]   | Primary monitor: [0,0 - 2560,1440]
+{15:52:07.516} INFO: [Renderer]   | Secondary monitor: [2560,0 - 6400,2160]
+{15:52:08.384} INFO: [Renderer]   > Renderer started in DX11 mode.
+{15:52:08.384} INFO: [Renderer]   > DX11 reported 11'049M free texture memory.
+{15:52:08.385} INFO: [Renderer]   > [CheckSLI] Single GPU system
+{15:52:08.450} INFO: [Renderer]   > [d3d12rt-checker] All tests were OK. Switch to D3D12Ultimate to enable raytracing
+{15:52:08.462} INFO: [Renderer]   > Renderer: supported display modes:
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:60.32, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:75.03, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:59.81, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:75.03, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:75.03, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:75.03, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:60.02, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.462} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:50.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:59.92, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:59.92, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 1920x2160, bpp:24, hz:59.99, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2048x1280, bpp:24, hz:59.92, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2048x1536, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2048x1536, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2048x1536, bpp:24, hz:29.98, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2048x1536, bpp:24, hz:29.98, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2560x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2560x1600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2560x1600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2560x1600, bpp:24, hz:29.98, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 2560x1600, bpp:24, hz:29.98, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 3840x2160, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:0, 3840x2160, bpp:24, hz:29.98, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:72.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:72.19, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:72.19, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:60.32, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:60.32, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:56.25, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:56.25, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:72.19, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:72.19, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:60.32, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:60.32, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:56.25, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:56.25, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:72.19, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:60.32, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:56.25, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:75.03, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:70.07, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:75.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:59.81, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:75.03, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:75.03, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:75.03, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:60.02, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:59.89, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1600x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1600x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:59.94, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1920x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1920x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1920x2160, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 1920x2160, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 2048x1280, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 2048x1280, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 2048x1536, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 2048x1536, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 2560x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 2560x1600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 2560x1600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   |  monitor:1, 3840x2160, bpp:24, hz:60.00, fmt: A8R8G8B8
+{15:52:08.463} INFO: [Renderer]   | Texture streaming mem 0 MB
+{15:52:08.463} INFO: [INFO]       > Texture streaming buffer set to 0MB
+{15:52:08.463} INFO: [INFO]       > Texture streaming lowest priority distance set to 100m
+{15:52:08.704} DEBG: [DXGI]       > WM_SIZE 0, 2560x1440
+{15:52:08.705} INFO: [INFO]       > CGame::AppWindowInit: window client area: 0x0, 2560x1440
+{15:52:08.705} DEBG: [DXGI]       > [RChangeDeviceState] 2560x1440, 1.000000, borderless, 0/0 Hz
+{15:52:08.705} DEBG: [DXGI]       >                  was 1920x1080, 1.000000, , 0/1 Hz
+{15:52:08.708} DEBG: [DXGI]       > WM_SIZE 0, 0x0
+{15:52:08.709} DEBG: [DXGI]       > WM_SIZE 0, 2560x1440
+{15:52:09.573} INFO: [INFO]       > Texture streaming buffer set to 4000MB
+{15:52:09.575} INFO: [Video]      > //Video settings:
+{15:52:09.575} INFO: [Video]      > RendererMode("d3d11")
+{15:52:09.575} INFO: [Video]      > AsyncCompute(0)
+{15:52:09.575} INFO: [Video]      > WindowMode(1)
+{15:52:09.575} INFO: [Video]      > Resolution(2560,1440)
+{15:52:09.575} INFO: [Video]      > Scale3D(1.000000)
+{15:52:09.575} INFO: [Video]      > FSR(0.450000)
+{15:52:09.575} INFO: [Video]      > Upscaler(0)
+{15:52:09.575} INFO: [Video]      > Upscaling(2)
+{15:52:09.575} INFO: [Video]      > Monitor(0)
+{15:52:09.575} INFO: [Video]      > DisableDWM(0)
+{15:52:09.575} INFO: [Video]      > TextureQuality("High")
+{15:52:09.575} INFO: [Video]      > ShadowMapSize(924)
+{15:52:09.575} INFO: [Video]      > SpotShadowMapSize(4096)
+{15:52:09.575} INFO: [Video]      > GammaFloat(1.00)
+{15:52:09.575} INFO: [Video]      > GrassQuality(0)
+{15:52:09.575} INFO: [Video]      > FrameRate(1)
+{15:52:09.575} INFO: [Video]      > MotionBlur(1)
+{15:52:09.575} INFO: [Video]      > MotionBlurQuality("High")
+{15:52:09.575} INFO: [Video]      > FilmGrain(0)
+{15:52:09.575} INFO: [Video]      > AntiAliasing(1)
+{15:52:09.575} INFO: [Video]      > AntiAliasingQuality(1)
+{15:52:09.575} INFO: [Video]      > FogQuality(2)
+{15:52:09.575} INFO: [Video]      > ReflectionsQuality(2)
+{15:52:09.575} INFO: [Video]      > ContactShadowsQuality(4)
+{15:52:09.575} INFO: [Video]      > SpotShadowsQuality(2)
+{15:52:09.575} INFO: [Video]      > AmbientOcclusion(1)
+{15:52:09.575} INFO: [Video]      > AmbientOcclusionQuality(1)
+{15:52:09.575} INFO: [Video]      > ColorBlindMode(0)
+{15:52:09.575} INFO: [Video]      > GpuFxQuality(1)
+{15:52:09.575} INFO: [Video]      > VoxelGiQuality(3)
+{15:52:09.576} INFO: [ResPack]    > Free resource loading disabled
+{15:52:09.664} INFO: [ResPack]    > Acquired prefab data: 147856, 161992
+{15:52:09.665} INFO: [ResPack]    >  -> 0 prefabs, 32 presets available in engine_pc.rpack
+{15:52:10.604} INFO: [ResPack]    > Acquired prefab data: 12557784, 10596232
+{15:52:10.622} INFO: [ResPack]    >  -> 1081 prefabs, 184 presets available in common_prefabs_pc.rpack
+{15:52:11.387} INFO: [INFO]       > [Input] Keyboard 0 enumerated: intance_name = Keyboard, product_name = Keyboard, GUID = {6f1d2b61-d5a0-11cf-bfc7-444553540000}
+{15:52:11.448} INFO: [INFO]       > [CInput::SelectKeyboard] Keyboard 0 selected: Keyboard, Keyboard
+{15:52:11.989} INFO: [INFO]       > Bink filename: IntroLogos_4k.bik
+{15:52:13.466} INFO: [INFO]       > [gpufx] preloaded 1019 sequences. It took 1455.709106 ms
+{15:52:13.466} RETL: [Game] > game version: '1.0.4', '1.0.202202071214'
+{15:52:26.809} INFO: [INFO]       > Bink filename: GameIntro_4k.bik
+{15:53:28.144} RETL: [Savegame] > ScanForSavegames: saves 1 (prev value -1)
+{15:53:30.018} RETL: [Savegame] > Continue save update finished (SUCCEEDED): save 'save_main_0.sav' found, all_scanned_saves 1
+{15:53:37.297} RETL: [Game]     > ===== CreateSession ===== 
+{15:53:38.466} INFO: [ResPack]    > Acquired prefab data: 106165472, 42357864
+{15:53:38.570} INFO: [ResPack]    >  -> 8689 prefabs, 568 presets available in city_persistent_pc.rpack
+{15:53:38.608} INFO: [ResPack]    > Acquired prefab data: 2687000, 1309528
+{15:53:38.613} INFO: [ResPack]    >  -> 181 prefabs, 43 presets available in prologue_persistent_pc.rpack
+{15:53:38.636} RETL: [Savegame] > SessionContextState: 'OnCreate' [game_type 'Campaign', game_mode 'Coop', save_name 'save_main_0.sav' (slot 0), map 'city' (id:761188051), (first), difficulty [current: Normal, savegame: Normal, min_savegame: Normal, initial: Normal, lobby_settings: Normal], save_version 72, build: '1.0.202202071214 / 2', perforce_stream: '//tech/rel-ph-patch1-pc']
+{15:53:42.401} INFO: [Video]      > //Video settings:
+{15:53:42.401} INFO: [Video]      > RendererMode("d3d11")
+{15:53:42.401} INFO: [Video]      > AsyncCompute(0)
+{15:53:42.401} INFO: [Video]      > WindowMode(1)
+{15:53:42.401} INFO: [Video]      > Resolution(2560,1440)
+{15:53:42.401} INFO: [Video]      > Scale3D(1.000000)
+{15:53:42.401} INFO: [Video]      > FSR(0.450000)
+{15:53:42.401} INFO: [Video]      > Upscaler(0)
+{15:53:42.401} INFO: [Video]      > Upscaling(2)
+{15:53:42.401} INFO: [Video]      > Monitor(0)
+{15:53:42.401} INFO: [Video]      > DisableDWM(0)
+{15:53:42.401} INFO: [Video]      > TextureQuality("High")
+{15:53:42.401} INFO: [Video]      > ShadowMapSize(924)
+{15:53:42.401} INFO: [Video]      > SpotShadowMapSize(4096)
+{15:53:42.401} INFO: [Video]      > GammaFloat(1.00)
+{15:53:42.401} INFO: [Video]      > GrassQuality(0)
+{15:53:42.401} INFO: [Video]      > FrameRate(1)
+{15:53:42.401} INFO: [Video]      > MotionBlur(1)
+{15:53:42.401} INFO: [Video]      > MotionBlurQuality("High")
+{15:53:42.401} INFO: [Video]      > FilmGrain(0)
+{15:53:42.401} INFO: [Video]      > AntiAliasing(1)
+{15:53:42.401} INFO: [Video]      > AntiAliasingQuality(1)
+{15:53:42.401} INFO: [Video]      > FogQuality(2)
+{15:53:42.401} INFO: [Video]      > ReflectionsQuality(2)
+{15:53:42.401} INFO: [Video]      > ContactShadowsQuality(4)
+{15:53:42.401} INFO: [Video]      > SpotShadowsQuality(2)
+{15:53:42.401} INFO: [Video]      > AmbientOcclusion(1)
+{15:53:42.401} INFO: [Video]      > AmbientOcclusionQuality(1)
+{15:53:42.401} INFO: [Video]      > ColorBlindMode(0)
+{15:53:42.401} INFO: [Video]      > GpuFxQuality(1)
+{15:53:42.401} INFO: [Video]      > VoxelGiQuality(3)
+{15:53:45.381} RETL: [Game]     > >>>>> <1293980469> Changing level from <> to <city>
+{15:53:48.349} RETL: [Savegame] > SessionContextState: 'OnUpdate after ChangeMap' [game_type 'Campaign', game_mode 'Coop', save_name 'save_main_0.sav' (slot 0), map 'city' (id:761188051), (first), difficulty [current: Normal, savegame: Normal, min_savegame: Normal, initial: Normal, lobby_settings: Normal], save_version 72, build: '1.0.202202071214 / 2', perforce_stream: '//tech/rel-ph-patch1-pc']
+{15:53:48.462} RETL: [Game]     > >>>>> <1293980469> Performing load - mode <NormalFromMainMenu>
+{15:53:48.462} RETL: [Savegame] > File name 'save_main_0.sav', memory_save->size = 0
+{15:53:48.486} RETL: [Savegame] > Loading finished (ESgErr::Ok).
+{15:53:48.486} RETL: [Savegame] > Applying loaded data: Original/Source/Current version: [save_version 72, build: '1.0.202202071214 / 2', perforce_stream: '//tech/rel-ph-patch1-pc']
+{15:53:48.486} RETL: [Savegame] > Updated SessionContext [session_id 1293025094, time_played 11735856, campaign_finished false, finished_difficulty -1]
+{15:53:48.723} RETL: [Savegame] > RestoreStoryState result: 'true'.
+{15:53:48.723} RETL: [Savegame] > SpawnSpot: Spawnpoint, map: 'city', map_area: 'city/^R1_4_Zone_04_Map_Zone', spawn_point: city/^reg01_hub_market_church/logic/player/respawn
+{15:53:48.766} RETL: [Savegame] > Applying loaded data finished (result: true)
+{15:53:51.127} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{15:53:51.127} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{15:53:51.399} INFO: [ResPack]    > Acquired prefab data: 32967768, 13857440
+{15:53:51.440} INFO: [ResPack]    >  -> 6313 prefabs, 0 presets available in reg_01_pc.rpack
+{15:53:51.470} INFO: [ResPack]    > Acquired prefab data: 535832, 207488
+{15:53:51.471} INFO: [ResPack]    >  -> 123 prefabs, 0 presets available in reg_buffer_01_05_pc.rpack
+{15:53:51.474} INFO: [ResPack]    > Acquired prefab data: 283312, 106608
+{15:53:51.474} INFO: [ResPack]    >  -> 140 prefabs, 0 presets available in reg_buffer_01_02_pc.rpack
+{15:53:51.490} INFO: [ResPack]    > Acquired prefab data: 1800416, 752040
+{15:53:51.493} INFO: [ResPack]    >  -> 692 prefabs, 0 presets available in reg_buffer_01_04_pc.rpack
+{16:15:15.350} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:15:15.350} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{16:15:47.065} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:15:47.065} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{16:15:51.000} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:15:51.000} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{16:16:52.767} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:16:52.767} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{16:18:37.806} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:18:37.806} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{16:18:57.423} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:18:57.423} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{16:19:27.766} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:19:27.766} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:20:23.148} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:20:23.148} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:21:08.833} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:21:08.833} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:21:27.918} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:21:27.918} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:21:33.652} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:21:33.652} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:21:42.902} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:21:42.902} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:21:48.652} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:21:48.652} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:21:59.969} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:21:59.969} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:22:10.054} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:22:10.054} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:22:16.187} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:22:16.187} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:22:20.553} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:22:20.553} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:22:36.371} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:22:36.371} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:22:38.389} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:22:38.389} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:22:54.888} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:22:54.888} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{16:23:46.219} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:23:46.219} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:25:19.671} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:25:19.671} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:25:35.523} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:25:35.523} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:28:48.331} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:28:48.331} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:29:26.483} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:29:26.483} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:29:40.216} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:29:40.216} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:29:55.254} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:29:55.254} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:29:59.933} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:29:59.933} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:30:04.917} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:30:04.917} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:30:16.118} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:30:16.118} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:30:25.883} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:30:25.883} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:30:43.302} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:30:43.302} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:30:46.753} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:30:46.753} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:31:00.686} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:31:00.686} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:36:34.484} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:36:34.484} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:36:55.268} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:36:55.269} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:38:39.039} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:38:39.039} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:39:05.757} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:39:05.757} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:39:49.675} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:39:49.675} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:40:26.277} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:40:26.277} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:41:51.698} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:41:51.698} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:45:00.439} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:45:00.439} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:46:13.758} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:46:13.758} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:46:26.308} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:46:26.308} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:46:33.825} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:46:33.825} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:48:16.263} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:48:16.263} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:48:20.597} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:48:20.597} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:48:21.580} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:48:21.580} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:48:40.631} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:48:40.631} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:48:46.431} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:48:46.431} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:48:47.114} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:48:47.115} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:48:54.599} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:48:54.599} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:49:40.884} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:49:40.884} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:49:47.083} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:49:47.084} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:50:06.184} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:50:06.184} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:53:59.678} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:53:59.678} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:05.646} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:05.646} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:07.728} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:07.728} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:12.213} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:12.213} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:13.245} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:13.245} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:20.112} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:20.112} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:24.682} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:24.682} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:37.446} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:37.446} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:55.230} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:55.230} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:54:56.330} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:54:56.330} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:55:05.014} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:55:05.014} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:56:09.083} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:56:09.083} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:56:15.434} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:56:15.434} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:56:16.399} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:56:16.400} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:56:18.866} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:56:18.866} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:56:37.751} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:56:37.751} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:56:41.869} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:56:41.869} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:56:42.601} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:56:42.601} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{16:56:51.401} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{16:56:51.401} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{17:04:14.322} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:04:14.322} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{17:06:25.994} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:06:25.994} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{17:11:09.439} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:11:09.439} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{17:11:18.607} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:11:18.607} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_01_pc.rpack
+{17:13:16.278} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:13:16.278} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{17:13:58.846} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:13:58.846} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{17:14:01.362} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:14:01.362} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{17:14:02.330} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:14:02.330} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{17:14:53.015} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:14:53.015} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{17:15:27.708} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:15:27.708} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{17:15:49.274} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:15:49.274} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{17:15:59.377} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:15:59.377} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{17:38:01.243} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:38:01.243} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{17:42:57.374} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:42:57.375} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_badboys_pc.rpack
+{17:47:37.214} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{17:47:37.214} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_pk_pc.rpack
+
+{18:01:40.238} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:01:40.238} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:03:11.889} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:03:11.890} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:03:17.192} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:03:17.192} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:03:18.090} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:03:18.090} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:04:38.602} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:04:38.602} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:05:35.471} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:05:35.471} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:05:49.855} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:05:49.855} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:06:08.281} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:06:08.282} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:07:19.613} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:07:19.613} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_pk_pc.rpack
+
+{18:11:22.844} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:11:22.844} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:23:24.852} INFO: [INFO]       > Bink filename: skill_active_land2.bik
+{18:23:24.901} INFO: [INFO]       > Bink filename: skill_active_land.bik
+{18:23:29.985} INFO: [INFO]       > Bink filename: skill_firm_grip.bik
+{18:23:30.369} INFO: [INFO]       > Bink filename: skill_fast_climb.bik
+{18:23:34.368} INFO: [INFO]       > Bink filename: skill_ledge_master.bik
+{18:23:35.085} INFO: [INFO]       > Bink filename: skill_fast_climb.bik
+{18:23:35.935} INFO: [INFO]       > Bink filename: skill_firm_grip.bik
+{18:23:36.803} INFO: [INFO]       > Bink filename: skill_active_land.bik
+{18:23:38.052} INFO: [INFO]       > Bink filename: skill_sleek_runner.bik
+{18:23:38.602} INFO: [INFO]       > Bink filename: skill_active_land.bik
+{18:23:41.702} INFO: [INFO]       > Bink filename: skill_active_land2.bik
+{18:23:43.386} INFO: [INFO]       > Bink filename: skill_active_land_jump.bik
+{18:26:02.856} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:26:02.856} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:28:31.674} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:28:31.674} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:29:13.256} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:29:13.256} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:29:46.696} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:29:46.696} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:29:54.794} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:29:54.794} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:30:12.146} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:30:12.146} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:30:17.465} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:30:17.465} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:30:43.764} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:30:43.764} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:31:28.117} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:31:28.117} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:31:33.634} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:31:33.634} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:32:19.662} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:32:19.662} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:32:51.499} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:32:51.499} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:32:54.331} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:32:54.331} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:45:23.871} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:45:23.871} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:45:37.758} INFO: [INFO]       > Bink filename: skill_wrestle_kick.bik
+{18:45:38.041} INFO: [INFO]       > Bink filename: skill_perfect_dodge.bik
+{18:45:38.691} INFO: [INFO]       > Bink filename: skill_power_attack.bik
+{18:45:42.092} INFO: [INFO]       > Bink filename: skill_perfect_block.bik
+{18:45:42.358} INFO: [INFO]       > Bink filename: skill_perfect_dodge.bik
+{18:45:42.924} INFO: [INFO]       > Bink filename: skill_perfect_block.bik
+{18:45:43.724} INFO: [INFO]       > Bink filename: skill_power_attack.bik
+{18:45:46.908} INFO: [INFO]       > Bink filename: skill_wrestle_kick.bik
+{18:45:47.558} INFO: [INFO]       > Bink filename: skill_dash_advanced.bik
+{18:45:47.842} INFO: [INFO]       > Bink filename: skill_far_jump.bik
+{18:45:48.291} INFO: [INFO]       > Bink filename: skill_far_jump.bik
+{18:45:49.125} INFO: [INFO]       > Bink filename: skill_double_jump.bik
+{18:45:56.825} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:45:56.825} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:46:27.342} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:46:27.342} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:47:27.802} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:47:27.802} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:47:50.670} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:47:50.670} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:48:18.404} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:48:18.404} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:52:25.224} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:52:25.224} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{18:55:11.539} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:55:11.539} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:55:17.623} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:55:17.623} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:55:36.455} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:55:36.455} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{18:56:40.746} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:56:40.746} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:57:02.112} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:57:02.112} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:58:27.936} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{18:58:27.936} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{18:58:38.441} INFO: [INFO]       > Bink filename: skill_wrestle_kick.bik
+{18:58:49.391} INFO: [INFO]       > Bink filename: skill_after_boost.bik
+{18:58:49.557} INFO: [INFO]       > Bink filename: skill_double_jump.bik
+{18:58:49.858} INFO: [INFO]       > Bink filename: skill_rotate_jump.bik
+{19:00:53.255} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:00:53.256} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{19:00:58.491} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:00:58.491} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{19:01:10.573} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:01:10.573} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{19:01:36.575} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:01:36.575} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{19:02:15.116} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:02:15.116} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:02:26.765} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:02:26.765} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:02:43.032} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:02:43.032} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:04:12.388} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:04:12.388} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:04:29.761} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:04:29.761} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:05:29.181} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:05:29.181} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:05:31.971} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:05:31.971} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:05:34.181} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:05:34.181} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:05:39.331} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:05:39.331} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:06:03.715} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:06:03.715} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:06:58.262} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:06:58.262} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_metro_pk_pc.rpack
+
+{19:11:54.664} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:11:54.664} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:12:47.776} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:12:47.776} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+
+{19:31:45.398} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:31:45.398} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:34:14.420} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:34:14.420} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:34:35.898} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:34:35.898} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:44:24.447} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:44:24.447} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:44:33.888} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:44:33.888} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:45:14.873} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:45:14.873} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:45:28.390} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:45:28.390} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:45:53.584} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:45:53.584} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:46:04.585} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:04.585} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:46:17.152} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:17.152} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:46:29.043} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:29.043} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:46:36.936} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:36.936} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:46:41.736} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:41.736} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:46:43.145} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:43.145} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:46:47.261} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:47.261} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:46:47.996} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:47.996} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:46:52.919} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:46:52.919} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:48:51.749} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:48:51.749} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:49:15.634} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:49:15.634} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:49:49.478} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:49:49.478} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:49:51.061} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:49:51.061} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:49:51.452} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:49:51.452} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:50:32.128} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:50:32.128} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:50:39.663} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:50:39.663} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{19:51:06.176} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:51:06.176} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:52:05.855} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:52:05.855} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:52:28.109} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:52:28.109} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:53:22.760} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:53:22.760} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:53:50.228} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:53:50.228} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:54:48.766} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:54:48.766} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:55:04.564} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:55:04.564} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:55:40.243} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:55:40.243} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:56:16.101} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:56:16.101} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:56:48.570} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:56:48.570} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:57:26.620} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:57:26.620} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:58:01.923} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:58:01.924} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:58:03.974} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:58:03.974} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:58:28.673} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:58:28.673} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{19:59:07.465} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{19:59:07.465} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:04:14.907} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:04:14.907} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:04:34.138} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:04:34.138} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:05:15.539} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:05:15.539} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:05:17.770} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:05:17.771} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:06:00.357} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:06:00.357} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:06:14.424} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:06:14.424} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:06:16.725} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:06:16.725} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:06:50.427} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:06:50.427} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:07:57.642} INFO: [INFO]       > Bink filename: skill_parkour_combat.bik
+{20:07:58.250} INFO: [INFO]       > Bink filename: skill_nagewaza_throw.bik
+{20:07:58.383} INFO: [INFO]       > Bink filename: skill_nagewaza.bik
+{20:07:58.483} INFO: [INFO]       > Bink filename: skill_perfect_block.bik
+{20:07:58.533} INFO: [INFO]       > Bink filename: skill_power_attack.bik
+{20:07:58.583} INFO: [INFO]       > Bink filename: skill_ground_pound.bik
+{20:07:59.317} INFO: [INFO]       > Bink filename: skill_multiple_shots.bik
+{20:07:59.699} INFO: [INFO]       > Bink filename: skill_after_boost.bik
+{20:07:59.950} INFO: [INFO]       > Bink filename: skill_far_jump.bik
+{20:08:00.350} INFO: [INFO]       > Bink filename: skill_active_land.bik
+{20:08:01.050} INFO: [INFO]       > Bink filename: skill_active_land2.bik
+{20:08:03.534} INFO: [INFO]       > Bink filename: skill_far_jump.bik
+{20:08:07.233} INFO: [INFO]       > Bink filename: skill_double_jump.bik
+{20:08:07.483} INFO: [INFO]       > Bink filename: skill_active_land2.bik
+{20:08:08.000} INFO: [INFO]       > Bink filename: skill_dash.bik
+{20:08:13.784} INFO: [INFO]       > Bink filename: skill_dash_advanced.bik
+{20:08:13.884} INFO: [INFO]       > Bink filename: skill_double_jump.bik
+{20:08:14.184} INFO: [INFO]       > Bink filename: skill_active_land2.bik
+{20:08:48.312} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:08:48.313} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:09:36.152} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:09:36.152} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:09:57.549} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:09:57.549} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:10:23.551} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:10:23.551} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:10:25.467} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:10:25.467} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:10:35.785} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:10:35.785} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:11:19.786} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:11:19.786} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:12:05.173} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:12:05.173} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:12:58.290} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:12:58.290} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:13:13.009} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:13:13.009} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:14:30.077} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:14:30.077} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:14:41.162} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:14:41.162} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:14:54.094} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:14:54.094} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:14:57.777} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:14:57.777} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:15:14.062} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:15:14.062} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:15:37.646} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:15:37.646} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{20:15:55.003} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:15:55.003} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:19:46.097} INFO: [INFO]       > Bink filename: skill_multiple_shots.bik
+{20:19:46.229} INFO: [INFO]       > Bink filename: skill_power_shot.bik
+{20:19:46.630} INFO: [INFO]       > Bink filename: skill_windmill.bik
+{20:19:47.797} INFO: [INFO]       > Bink filename: skill_perfect_block.bik
+{20:19:47.913} INFO: [INFO]       > Bink filename: skill_block_projectiles.bik
+{20:19:48.213} INFO: [INFO]       > Bink filename: skill_block_projectiles.bik
+{20:19:48.297} INFO: [INFO]       > Bink filename: skill_perfect_block.bik
+{20:19:51.413} INFO: [INFO]       > Bink filename: skill_perfect_dodge.bik
+{20:19:52.147} INFO: [INFO]       > Bink filename: skill_jump_attack.bik
+{20:19:52.463} INFO: [INFO]       > Bink filename: skill_vault_kick_ragdoll.bik
+{20:19:52.613} INFO: [INFO]       > Bink filename: skill_jump_attack.bik
+{20:19:52.980} INFO: [INFO]       > Bink filename: skill_perfect_dodge.bik
+{20:19:53.880} INFO: [INFO]       > Bink filename: skill_perfect_block.bik
+{20:20:00.813} INFO: [INFO]       > Bink filename: skill_power_attack.bik
+{20:20:00.880} INFO: [INFO]       > Bink filename: skill_wrestle_kick.bik
+{20:20:02.097} INFO: [INFO]       > Bink filename: skill_ground_pound.bik
+{20:20:02.664} INFO: [INFO]       > Bink filename: skill_jump_attack.bik
+
+{20:24:26.047} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:24:26.047} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:25:24.616} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:25:24.616} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:26:08.753} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:26:08.753} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:27:28.575} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:27:28.575} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:27:59.007} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:27:59.007} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:28:12.223} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:28:12.223} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:29:36.853} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:29:36.853} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:29:47.641} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:29:47.641} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:30:01.839} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:30:01.840} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:30:05.003} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:30:05.003} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:30:06.938} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:30:06.938} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:31:18.843} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:31:18.843} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:31:21.859} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:31:21.860} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:32:20.260} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:32:20.260} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:32:23.477} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:32:23.477} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:33:24.664} INFO: [INFO]       > Bink filename: skill_active_land2.bik
+{20:33:24.697} INFO: [INFO]       > Bink filename: skill_active_land.bik
+{20:33:24.747} INFO: [INFO]       > Bink filename: skill_height_jump.bik
+{20:33:27.963} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:33:27.963} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:33:44.781} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:33:44.781} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{20:34:54.114} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:34:54.114} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{20:36:10.262} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:36:10.262} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:36:16.429} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:36:16.429} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:37:45.848} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:37:45.849} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:37:55.282} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:37:55.282} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:38:44.832} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:38:44.832} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{20:39:02.152} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{20:39:02.152} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:16:16.517} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:16:16.517} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:16:24.233} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:16:24.233} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:17:30.436} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:17:30.436} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:17:59.887} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:17:59.887} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:19:18.939} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:19:18.940} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:20:34.760} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:20:34.760} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:21:07.895} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:21:07.895} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:21:11.829} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:21:11.829} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:21:21.429} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:21:21.429} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:21:45.364} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:21:45.364} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:22:04.797} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:22:04.797} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:22:26.482} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:22:26.482} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:22:41.633} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:22:41.633} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:23:01.218} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:23:01.218} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:23:08.501} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:23:08.501} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:23:20.431} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:23:20.431} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:23:51.084} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:23:51.084} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:24:10.137} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:24:10.137} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:26:20.841} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:26:20.841} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:26:42.028} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:26:42.028} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:26:55.309} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:26:55.309} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:27:14.202} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:27:14.202} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:28:09.528} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:28:09.528} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:28:38.580} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:28:38.580} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:29:09.114} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:29:09.114} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:29:17.069} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:29:17.069} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:29:48.283} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:29:48.283} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:30:02.150} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:30:02.150} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:31:08.155} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:31:08.155} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:31:41.539} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:31:41.539} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:32:01.837} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:32:01.837} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:32:16.608} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:32:16.608} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:32:50.343} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:32:50.343} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:32:59.644} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:32:59.644} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:33:41.606} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:33:41.606} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_wt_r1_pc.rpack
+{21:34:25.052} INFO: [INFO]       > Bink filename: skill_multiple_shots.bik
+{21:34:25.919} INFO: [INFO]       > Bink filename: skill_rotate_jump.bik
+{21:34:25.986} INFO: [INFO]       > Bink filename: skill_double_jump.bik
+{21:34:26.202} INFO: [INFO]       > Bink filename: skill_active_land.bik
+{21:34:26.468} INFO: [INFO]       > Bink filename: skill_far_jump.bik
+{21:34:28.636} INFO: [INFO]       > Bink filename: skill_active_land2.bik
+{21:34:28.836} INFO: [INFO]       > Bink filename: skill_active_land_jump.bik
+{21:34:29.685} INFO: [INFO]       > Bink filename: skill_double_jump.bik
+{21:34:29.902} INFO: [INFO]       > Bink filename: skill_far_jump.bik
+{21:34:30.286} INFO: [INFO]       > Bink filename: skill_dash.bik
+{21:34:34.052} INFO: [INFO]       > Bink filename: skill_sleek_runner.bik
+{21:34:38.469} INFO: [INFO]       > Bink filename: skill_fast_climb.bik
+{21:34:44.353} INFO: [INFO]       > Bink filename: skill_ledge_master.bik
+
+{21:34:49.331} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:34:49.331} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:35:06.530} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{21:35:06.530} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bandits_r1_pc.rpack
+{21:36:25.677} RETL: [Game]     > ===== DestroySession ===== (reason: 'OnQuitGame')
+{21:36:31.510} INFO: [Video]      > //Video settings:
+{21:36:31.510} INFO: [Video]      > RendererMode("d3d11")
+{21:36:31.510} INFO: [Video]      > AsyncCompute(0)
+{21:36:31.510} INFO: [Video]      > WindowMode(1)
+{21:36:31.510} INFO: [Video]      > Resolution(2560,1440)
+{21:36:31.510} INFO: [Video]      > Scale3D(1.000000)
+{21:36:31.510} INFO: [Video]      > FSR(0.450000)
+{21:36:31.510} INFO: [Video]      > Upscaler(0)
+{21:36:31.510} INFO: [Video]      > Upscaling(2)
+{21:36:31.510} INFO: [Video]      > Monitor(0)
+{21:36:31.510} INFO: [Video]      > DisableDWM(0)
+{21:36:31.510} INFO: [Video]      > TextureQuality("High")
+{21:36:31.510} INFO: [Video]      > ShadowMapSize(924)
+{21:36:31.510} INFO: [Video]      > SpotShadowMapSize(4096)
+{21:36:31.510} INFO: [Video]      > GammaFloat(1.00)
+{21:36:31.510} INFO: [Video]      > GrassQuality(0)
+{21:36:31.510} INFO: [Video]      > FrameRate(1)
+{21:36:31.510} INFO: [Video]      > MotionBlur(1)
+{21:36:31.510} INFO: [Video]      > MotionBlurQuality("High")
+{21:36:31.510} INFO: [Video]      > FilmGrain(0)
+{21:36:31.510} INFO: [Video]      > AntiAliasing(1)
+{21:36:31.510} INFO: [Video]      > AntiAliasingQuality(1)
+{21:36:31.510} INFO: [Video]      > FogQuality(2)
+{21:36:31.510} INFO: [Video]      > ReflectionsQuality(2)
+{21:36:31.510} INFO: [Video]      > ContactShadowsQuality(4)
+{21:36:31.510} INFO: [Video]      > SpotShadowsQuality(2)
+{21:36:31.510} INFO: [Video]      > AmbientOcclusion(1)
+{21:36:31.510} INFO: [Video]      > AmbientOcclusionQuality(1)
+{21:36:31.510} INFO: [Video]      > ColorBlindMode(0)
+{21:36:31.510} INFO: [Video]      > GpuFxQuality(1)
+{21:36:31.510} INFO: [Video]      > VoxelGiQuality(3)
+{21:36:33.978} RETL: [Savegame] > Continue save update finished (SUCCEEDED): save 'save_main_0.sav' found, all_scanned_saves 1
+{21:36:42.162} INFO: [INFO]       > ---------------------------------------------------------
+{21:36:42.162} INFO: [INFO]       > Time of playing game: 20675.226563s
+{21:36:42.162} INFO: [INFO]       > Updated frames: 1224119 Rendered frames: 1223813
+{21:36:42.162} INFO: [INFO]       > Average FPS: 59.192245
+{21:36:42.162} INFO: [INFO]       > ---------------------------------------------------------
+{21:36:45.106} INFO: [Renderer]   > [r_Shutdown] Dll released

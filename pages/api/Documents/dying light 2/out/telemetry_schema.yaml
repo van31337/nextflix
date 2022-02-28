@@ -1,0 +1,587 @@
+properties:
+  - property: Event
+    type: context
+    description: The current event
+  - property: LocalPlayer
+    type: context
+    description: The local player
+  - property: Session
+    type: context
+    description: The current game session
+  - property: System
+    type: context
+    description: The game in general
+  - property: LocalPlayer.ActiveControllerGroup
+    type: string
+    description: The player's current controller group
+  - property: LocalPlayer.AreaType
+    type: string
+    description: Name of Player's current area
+  - property: LocalPlayer.CarryingItem
+    type: string
+    description: Player has this item in his inventory
+  - property: LocalPlayer.Cash
+    type: int
+    description: Player's current cash
+  - property: LocalPlayer.CombatXp
+    type: int64
+    description: Player's current combat experience
+  - property: LocalPlayer.CurrentWeapon
+    type: context
+    description: Player's current weapon
+  - property: LocalPlayer.DefensiveControllerState
+    type: string
+    description: The player's current defensive controller state
+  - property: LocalPlayer.Health
+    type: float
+    description: Player's current health
+  - property: LocalPlayer.Immunity
+    type: float
+    description: Player's immunity
+  - property: LocalPlayer.InDarkPlace
+    type: bool
+    description: Is Player in dark place
+  - property: LocalPlayer.InShop
+    type: bool
+    description: Is Player in shop
+  - property: LocalPlayer.IsAlive
+    type: bool
+    description: Is the player alive
+  - property: LocalPlayer.IsGrabbing
+    type: bool
+    description: Is the player grabbing someone
+  - property: LocalPlayer.IsHealthCritical
+    type: bool
+    description: Is the player's health critical
+  - property: LocalPlayer.IsInAir
+    type: bool
+    description: Is the player in the air
+  - property: LocalPlayer.IsInFatalFall
+    type: bool
+    description: Is the player in a fatal fall
+  - property: LocalPlayer.IsInSafeZone
+    type: bool
+    description: Is the player in a safe zone
+  - property: LocalPlayer.IsInWater
+    type: bool
+    description: Is the player in the water
+  - property: LocalPlayer.IsMeleeAttacking
+    type: bool
+    description: Is the player melee attacking
+  - property: LocalPlayer.IsStaminaDepleted
+    type: bool
+    description: Is player's stamina depleted
+  - property: LocalPlayer.Position
+    type: vec3
+    description: Player's current position
+  - property: LocalPlayer.PreviousControllerGroup
+    type: string
+    description: Player's previous controller group
+  - property: LocalPlayer.QuestAreaName
+    type: string
+    description: Player's tracked quest area name
+  - property: LocalPlayer.QuestName
+    type: string
+    description: Player's tracked quest name
+  - property: LocalPlayer.Stamina
+    type: float
+    description: Player's stamina
+  - property: LocalPlayer.SurfaceType
+    type: string
+    description: Player is standing on this surface type
+  - property: LocalPlayer.TotalXp
+    type: int64
+    description: Player's total experience
+  - property: LocalPlayer.TraversalXp
+    type: int64
+    description: Player's current traversal experience
+  - property: LocalPlayer.Velocity
+    type: float
+    description: Player's velocity
+  - property: LocalPlayer.CurrentWeapon.ID
+    type: int
+    description: Player's current weapon id
+  - property: LocalPlayer.CurrentWeapon.Integrity
+    type: float
+    description: Current weapon's integrity
+  - property: LocalPlayer.CurrentWeapon.Name
+    type: int
+    description: Player's current weapon name
+  - property: LocalPlayer.CurrentWeapon.TimesRepaired
+    type: int
+    description: Current weapon's number of times repaired
+  - property: Session.ChallengeActive
+    type: bool
+    description: Is any challenge active?
+  - property: Session.CoopNum
+    type: int
+    description: Number of coop players
+  - property: Session.Difficulty
+    type: int
+    description: Difficulty level
+  - property: Session.Map
+    type: string
+    description: Which map is the player on
+  - property: Session.PlayerGameSessionId_1
+    type: int
+    description: 1st player game session
+  - property: Session.PlayerGameSessionId_2
+    type: int
+    description: 2nd player game session
+  - property: Session.PlayerGameSessionId_3
+    type: int
+    description: 3rd player game session
+  - property: Session.PlayerGameSessionId_4
+    type: int
+    description: 4th player game session
+  - property: Session.Players
+    type: int
+    description: Number of players in game session
+  - property: Session.PursuitLevel
+    type: int
+    description: Current pursuit level
+  - property: Session.TimeOfDay
+    type: float
+    description: In-game time of day
+  - property: System.DLCPresent
+    type: string
+    description: Game has this DLC installed
+  - property: System.Language
+    type: string
+    description: Game's language setting
+  - property: Event.Id
+    type: int
+    description: buff id
+    event: BuffExecuted
+  - property: Event.Type
+    type: int
+    description: buff event type
+    event: BuffExecuted
+  - property: Event.BuggyAirTime
+    type: float
+    description: Time in the air
+    event: BuggyInAir
+  - property: Event.BuggyPartId
+    type: int
+    description: Repaired buggy part?
+    event: BuggyPartRepaired
+  - property: Event.UsedItems
+    type: int
+    description: Used items count
+    event: BuggyPartRepaired
+  - property: Event.Amount
+    type: int64
+    description: Cash added
+    event: CashAdded
+  - property: Event.Reason
+    type: string
+    description: Reason cash was added
+    event: CashAdded
+  - property: Event.Amount
+    type: int64
+    description: Cash removed
+    event: CashRemoved
+  - property: Event.Reason
+    type: string
+    description: Reason cash was removed
+    event: CashRemoved
+  - property: Event.Name
+    type: string
+    description: Challenge name
+    event: ChallengeEvent
+  - property: Event.Reward
+    type: int
+    description: Challenge reward exp
+    event: ChallengeEvent
+  - property: Event.Type
+    type: int
+    description: Challenge type
+    event: ChallengeEvent
+  - property: Event.ChangeReason
+    type: string
+    description: difficulty level change reason
+    event: DifficultyLevelChanged
+  - property: Event.CurrentLevel
+    type: string
+    description: current difficulty level
+    event: DifficultyLevelChanged
+  - property: Event.PrevLevel
+    type: string
+    description: previous difficulty level
+    event: DifficultyLevelChanged
+  - property: Event.Distance
+    type: float
+    description: Distance
+    event: Distance
+  - property: Event.DistanceXZ
+    type: float
+    description: Flat distance?
+    event: Distance
+  - property: Event.DistanceY
+    type: float
+    description: Height distance?
+    event: Distance
+  - property: Event.Distance
+    type: float
+    description: Climb distance
+    event: DistanceClimbed
+  - property: Event.ItemId
+    type: int
+    description: Docket redeemed item?
+    event: DocketRedeemed
+  - property: Event.Type
+    type: int
+    description: Docket type
+    event: DocketRedeemed
+  - property: Event.EffectCount
+    type: int
+    description: dynamic difficulty level effect count
+    event: DynamicDifficultyLevelChanged
+  - property: Event.TriggerName
+    type: string
+    description: dynamic difficulty level trigger name
+    event: DynamicDifficultyLevelChanged
+  - property: Event.Phase
+    type: string
+    description: encounter phase
+    event: EncounterPhaseChange
+  - property: Event.Type
+    type: string
+    description: encounter type
+    event: EncounterPhaseChange
+  - property: Event.IsLocal
+    type: bool
+    description: Is insigator a local player?
+    event: Finisher
+  - property: Event.Type
+    type: string
+    description: Finisher type
+    event: Finisher
+  - property: Event.VictimType
+    type: int
+    description: Victim's Id
+    event: Finisher
+  - property: Event.Reason
+    type: int
+    description: Fuel used reason
+    event: FuelUsed
+  - property: Event.Used
+    type: float
+    description: Used Fuel Amount?
+    event: FuelUsed
+  - property: Event.Cause
+    type: string
+    description: Action performed
+    event: GainedExperience
+  - property: Event.LevelType
+    type: string
+    description: Type of experience
+    event: GainedExperience
+  - property: Event.PointsGained
+    type: int64
+    description: How much experience
+    event: GainedExperience
+  - property: Event.TotalPoints
+    type: int64
+    description: Total experience points
+    event: GainedExperience
+  - property: Event.Gained
+    type: int64
+    description: Status points gained
+    event: GainedStatusPoints
+  - property: Event.Campaign
+    type: string
+    description: Campaign name
+    event: GameProgressChanged
+  - property: Event.Percentage
+    type: float
+    description: Game progress percentage
+    event: GameProgressChanged
+  - property: Event.HelpGetUp
+    type: bool
+    description: Was it a get-up help
+    event: Heal
+  - property: Event.ItemName
+    type: string
+    description: Item used to heal
+    event: Heal
+  - property: Event.Type
+    type: int
+    description: Type of healing
+    event: Heal
+  - property: Event.DeltaTime
+    type: int64
+    description: In game delta time passed
+    event: InGameDeltaTimePassed
+  - property: Event.ItemColor
+    type: string
+    description: Lost item's color
+    event: ItemLost
+  - property: Event.ItemCount
+    type: int
+    description: Lost item's count
+    event: ItemLost
+  - property: Event.ItemName
+    type: string
+    description: Lost item's name
+    event: ItemLost
+  - property: Event.ItemType
+    type: string
+    description: Lost item's type
+    event: ItemLost
+  - property: Event.ItemValue
+    type: int
+    description: Lost item's value
+    event: ItemLost
+  - property: Event.Reason
+    type: string
+    description: Reason item was lost
+    event: ItemLost
+  - property: Event.ItemColor
+    type: string
+    description: Taken item's color
+    event: ItemTaken
+  - property: Event.ItemCount
+    type: int
+    description: Taken item's count
+    event: ItemTaken
+  - property: Event.ItemName
+    type: string
+    description: Taken item's name
+    event: ItemTaken
+  - property: Event.ItemType
+    type: string
+    description: Taken item's type
+    event: ItemTaken
+  - property: Event.ItemValue
+    type: int
+    description: Taken item's count
+    event: ItemTaken
+  - property: Event.Shop
+    type: bool
+    description: Is taken from shop?
+    event: ItemTaken
+  - property: Event.ItemName
+    type: string
+    description: Thrown item name
+    event: ItemThrownByPlayer
+  - property: Event.SessionType
+    type: int
+    description: Join session flag
+    event: JoinedRemoteSession
+  - property: Event.Success
+    type: bool
+    description: Did joined remote session?
+    event: JoinedRemoteSession
+  - property: Event.AssassinItemName
+    type: string
+    description: Assassin item name
+    event: Killed
+  - property: Event.IsLocalPlayerAssassin
+    type: bool
+    description: Is the local player the assassin
+    event: Killed
+  - property: Event.Type
+    type: int
+    description: Event type
+    event: Killed
+  - property: Event.VictimPosition
+    type: vec3
+    description: Position of the victim
+    event: Killed
+  - property: Event.Reason
+    type: string
+    description: Left remote session reason
+    event: LeftRemoteSession
+  - property: Event.MapName
+    type: string
+    description: Map name
+    event: LevelEvent
+  - property: Event.Type
+    type: int
+    description: Level event type
+    event: LevelEvent
+  - property: Event.Controller
+    type: string
+    description: menu's controller class name
+    event: MenuEvent
+  - property: Event.Opened
+    type: bool
+    description: menu was opened?
+    event: MenuEvent
+  - property: Event.ScreenName
+    type: string
+    description: menu's screen name
+    event: MenuEvent
+  - property: Event.LootType
+    type: int
+    description: Loot type
+    event: OpenLootableObject
+  - property: Event.ObjectName
+    type: string
+    description: Object's name
+    event: OpenLootableObject
+  - property: Event.ObjectPosition
+    type: vec3
+    description: Object position
+    event: OpenLootableObject
+  - property: Event.Entered
+    type: int
+    description: Other player entered game
+    event: OtherPlayerEnteredGame
+  - property: Event.Left
+    type: int
+    description: Other player left game
+    event: OtherPlayerLeftGame
+  - property: Event.Activated
+    type: bool
+    description: Was activated breaker?
+    event: PBreakerActivated
+  - property: Event.TargetCount
+    type: int
+    description: Target count for breaker activated?
+    event: PBreakerActivated
+  - property: Event.Param
+    type: int
+    description: Additional param
+    event: PlayerAction
+  - property: Event.Type
+    type: string
+    description: Player action type
+    event: PlayerAction
+  - property: Event.DamageType
+    type: string
+    description: Player damage type
+    event: PlayerDowned
+  - property: Event.DownedType
+    type: int
+    description: Player downed type
+    event: PlayerDowned
+  - property: Event.Knockdown
+    type: bool
+    description: From knockdown?
+    event: PlayerDowned
+  - property: Event.LastDamager
+    type: int
+    description: Get last damager
+    event: PlayerDowned
+  - property: Event.Predicted
+    type: bool
+    description: Predicted?
+    event: PlayerDowned
+  - property: Event.Joined
+    type: int
+    description: Player joined other game
+    event: PlayerJoinedOtherGame
+  - property: Event.Left
+    type: int
+    description: Player left other game
+    event: PlayerLeftOtherGame
+  - property: Event.BucketName
+    type: string
+    description: Player changed level type
+    event: PlayerLevelChanged
+  - property: Event.Level
+    type: int
+    description: Player level
+    event: PlayerLevelChanged
+  - property: Event.Type
+    type: int
+    description: Player changed level type
+    event: PlayerLevelChanged
+  - property: Event.Prestige
+    type: int64
+    description: Prestige
+    event: PrestigeChanged
+  - property: Event.ChaseLevel
+    type: int
+    description: chase level
+    event: PursuitEvent
+  - property: Event.ChaseState
+    type: string
+    description: chase state
+    event: PursuitEvent
+  - property: Event.ChaseTime
+    type: float
+    description: chase time
+    event: PursuitEvent
+  - property: Event.Category
+    type: string
+    description: quest's category
+    event: QuestStateChanged
+  - property: Event.NewState
+    type: string
+    description: new quest state
+    event: QuestStateChanged
+  - property: Event.ObjectiveId
+    type: string
+    description: quest's objective name id
+    event: QuestStateChanged
+  - property: Event.ObjectiveName
+    type: string
+    description: quest's objective name
+    event: QuestStateChanged
+  - property: Event.PrevState
+    type: string
+    description: previous quest state
+    event: QuestStateChanged
+  - property: Event.QuestId
+    type: string
+    description: quest name id
+    event: QuestStateChanged
+  - property: Event.QuestName
+    type: string
+    description: quest name
+    event: QuestStateChanged
+  - property: Event.Level
+    type: int
+    description: Skill level
+    event: SkillEvent
+  - property: Event.Method
+    type: string
+    description: Learn method
+    event: SkillEvent
+  - property: Event.Removed
+    type: bool
+    description: Skill was removed?
+    event: SkillEvent
+  - property: Event.SkillId
+    type: int
+    description: Skill id
+    event: SkillEvent
+  - property: Event.Damage
+    type: float
+    description: damage value
+    event: TakeDamage
+  - property: Event.ItemName
+    type: string
+    description: Taken item's name
+    event: TakeDamage
+  - property: Event.ItemType
+    type: string
+    description: Taken item's type
+    event: TakeDamage
+  - property: Event.Craftplan
+    type: string
+    description: Created weapon's craftplan
+    event: WeaponCreated
+  - property: Event.ItemColor
+    type: string
+    description: Created weapon's color
+    event: WeaponCreated
+  - property: Event.ItemName
+    type: string
+    description: Created weapon's name
+    event: WeaponCreated
+  - property: Event.ItemType
+    type: string
+    description: Created weapon's type
+    event: WeaponCreated
+  - property: Event.Level
+    type: int
+    description: faction level
+    event: ZoneLevel
+  - property: Event.Name
+    type: string
+    description: zone name
+    event: ZoneLevel

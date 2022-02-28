@@ -1,0 +1,73 @@
+!WindowMode(i)                 // 0=windowed, 1=borderless, 2=fullscreen
+!WindowOffset(i,i)             // window position in pixels 
+!Monitor(i)                    // index of primary monitor
+!MonitorSecondary(i)           // index of secondary monitor
+!RendererMode(s)               // d3d11, d3d12 or d3d12ultimate 
+!FSR(f)                        // FSR sharpness
+!ExtraGameFov(f)               // extra fov
+!DisableDWM(i)                 // disables DWM when fullscreen
+!RT_AO()                       // raytraced ambient occlusion
+!RT_SS()                       // raytraced soft shadows
+!RT_Lit()                      // raytraced flashlight
+!RT_GiDif()                    // raytraced global illumination (diffuse)
+!RT_GiSpc()                    // raytraced global illumination (specular)
+!AsyncCompute(i)               // 0=deny async computes, 1=allow async computes if supported, 
+!Resolution(i,i)               // UI/window resolution of primary monitor
+!ResolutionSecondary(i,i)      // UI/window resolution of secondary monitor
+!Scale3D(f)                    // UI resolution * Scale3D = 3D resolution
+!Upscaler(i)                   // 0=none, 1=linear; 2=DLSS; 3=FSR
+!Upscaling(i)                  // 0=best performance, 1=balanced, 2=bestquality
+!TextureQuality(s)             // Low, Medium, High
+!GammaFloat(f)
+!ShadowMapSize(i)
+!SpotShadowMapSize(i)
+!FrameRate(i)                  // 0=no VSync, 1=Max device refresh rate, 30 - 30Hz, 60 - 60Hz
+!GrassQuality(i)               // lower is better
+!MotionBlur(i)                 // 0=disabled, 1=enabled
+!MotionBlurQuality(s)          // Low, Medium, High
+!FilmGrain(i)                  // 0=disabled, 1=enabled
+!DistanceBlur(i)               // 0=disabled, 1=enabled
+!AntiAliasing(i)               // 0=disabled, 1=enabled
+!AntiAliasingQuality(i)        // 0=low, 0=high
+!FogQuality(i)                 // 0=low, 1=medium, 2=high
+!ReflectionsQuality(i)         // 0=low, 1=medium, 2=high
+!ContactShadowsQuality(i)      // 0=none, 1=low, 2=medium, 3=high, 4=very high
+!SpotShadowsQuality(i)         // 0=low, 1=medium, 2=high
+!AmbientOcclusion(i)           // 0=disabled, 1=enabled
+!AmbientOcclusionQuality(i)    // 0=low, 1=high
+!ColorBlindMode(i)             // 0=none, 1=protanopia, 2=deuteranopia, 3=tritanopia
+!GpuFxQuality(i)               // 0=low, 1=high
+!VoxelGiQuality(i)             // 0=off, 1=low, 2=medium, 3=high, 4=ultra
+!OptSpotsCastShadows(i)
+
+RendererMode("d3d11")
+AsyncCompute(0)
+WindowMode(1)
+Resolution(2560,1440)
+Scale3D(1.000000)
+FSR(0.450000)
+Upscaler(0)
+Upscaling(2)
+Monitor(0)
+DisableDWM(0)
+TextureQuality("High")
+ShadowMapSize(924)
+SpotShadowMapSize(4096)
+GammaFloat(1.00)
+GrassQuality(0)
+FrameRate(1)
+MotionBlur(1)
+MotionBlurQuality("High")
+FilmGrain(0)
+DistanceBlur(1)
+AntiAliasing(1)
+AntiAliasingQuality(1)
+FogQuality(2)
+ReflectionsQuality(2)
+ContactShadowsQuality(4)
+SpotShadowsQuality(2)
+AmbientOcclusion(1)
+AmbientOcclusionQuality(1)
+ColorBlindMode(0)
+GpuFxQuality(1)
+VoxelGiQuality(3)

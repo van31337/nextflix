@@ -1,0 +1,373 @@
+{05:37:51.008} INFO: [FileSystem] > [CZip_dir::Initialize] 'c:/program files (x86)/steam/steamapps/common/dying light 2 / ph/source/data0.pak' took: 0.000000ms
+{05:37:51.030} INFO: [FileSystem] > [CZip_dir::Initialize] 'c:/program files (x86)/steam/steamapps/common/dying light 2 / ph/source/data1.pak' took: 0.000000ms
+{05:37:51.031} INFO: [FileSystem] > [CZip_dir::Initialize] 'c:/program files (x86)/steam/steamapps/common/dying light 2 / ph/source/databt.mpak' took: 0.000000ms
+{05:37:52.044} RETL: [GAME] > arguments (2): 'C:\Program Files (x86)\Steam\steamapps\common\Dying Light 2\ph\work\bin\x64\DyingLightGame_x64_rwdi.exe', '/nolightfx'
+{05:37:52.321} INFO: [FileSystem] > [CZip_dir::Initialize] 'c:/program files (x86)/steam/steamapps/common/dying light 2 / ph/source/data_lang/dataen.pak' took: 0.000000ms
+{05:37:52.340} INFO: [Renderer]   > [CVideoSettings::LoadSettings] Loading video settings using 'out/Settings/Video.scr'
+{05:37:52.348} INFO: [Renderer]   > [r_Initialize] Loaded from rd3d11_x64_rwdi.dll.
+{05:37:52.348} INFO: [Renderer]   > MonitorIdx=0, SecondaryMonitorIdx=-1
+{05:37:52.348} INFO: [Renderer]   > Enumerating D3D11 video adapters:
+{05:37:52.354} INFO: [Renderer]   > Adapter 0: NVIDIA GeForce RTX 2080 Ti 11049MB/16346MB/0MB
+{05:37:52.354} INFO: [Renderer]   |   Output 0: [0,0 - 2560,1440] \\.\DISPLAY1
+{05:37:52.354} INFO: [Renderer]   |   Output 1: [2560,0 - 6400,2160] \\.\DISPLAY2
+{05:37:52.354} INFO: [Renderer]   > Adapter 1: Microsoft Basic Render Driver 0MB/16346MB/0MB
+{05:37:52.355} INFO: [Renderer]   > Sorted adapter 0: NVIDIA GeForce RTX 2080 Ti 11049MB/16346MB/0MB
+{05:37:52.355} INFO: [Renderer]   > Sorted adapter 1: Microsoft Basic Render Driver 0MB/16346MB/0MB
+{05:37:52.355} INFO: [Renderer]   > Picking adapter: NVIDIA GeForce RTX 2080 Ti
+{05:37:52.355} INFO: [Renderer]   | Primary monitor: [0,0 - 2560,1440]
+{05:37:52.355} INFO: [Renderer]   | Secondary monitor: [2560,0 - 6400,2160]
+{05:37:53.269} INFO: [Renderer]   > Renderer started in DX11 mode.
+{05:37:53.269} INFO: [Renderer]   > DX11 reported 11'049M free texture memory.
+{05:37:53.270} INFO: [Renderer]   > [CheckSLI] Single GPU system
+{05:37:53.335} INFO: [Renderer]   > [d3d12rt-checker] All tests were OK. Switch to D3D12Ultimate to enable raytracing
+{05:37:53.351} INFO: [Renderer]   > Renderer: supported display modes:
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 640x480, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 720x480, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 720x576, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 800x600, bpp:24, hz:60.32, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:75.03, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1152x864, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1176x664, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x720, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x800, bpp:24, hz:59.81, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:75.03, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:75.03, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:75.03, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1280x1024, bpp:24, hz:60.02, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.351} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1360x768, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1366x768, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1440x900, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x900, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x1024, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1600x1200, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1680x1050, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1920x1080, bpp:24, hz:50.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:59.92, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1920x1200, bpp:24, hz:59.92, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 1920x2160, bpp:24, hz:59.99, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2048x1280, bpp:24, hz:59.92, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2048x1536, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2048x1536, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2048x1536, bpp:24, hz:29.98, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2048x1536, bpp:24, hz:29.98, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2560x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2560x1600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2560x1600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2560x1600, bpp:24, hz:29.98, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 2560x1600, bpp:24, hz:29.98, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 3840x2160, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:0, 3840x2160, bpp:24, hz:29.98, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:72.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:72.19, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:72.19, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:60.32, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:60.32, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:56.25, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x480, bpp:24, hz:56.25, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:72.19, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:72.19, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:60.32, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:60.32, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:56.25, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 720x576, bpp:24, hz:56.25, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:72.19, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:60.32, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 800x600, bpp:24, hz:56.25, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:75.03, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:70.07, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1152x864, bpp:24, hz:75.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x800, bpp:24, hz:59.81, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:75.03, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:75.03, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:75.03, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1280x1024, bpp:24, hz:60.02, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1360x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1366x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1440x900, bpp:24, hz:59.89, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1600x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1600x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1680x1050, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1920x1080, bpp:24, hz:59.94, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1920x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1920x1200, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1920x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1920x2160, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 1920x2160, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 2048x1280, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 2048x1280, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 2048x1536, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 2048x1536, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 2560x1440, bpp:24, hz:59.95, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 2560x1600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 2560x1600, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   |  monitor:1, 3840x2160, bpp:24, hz:60.00, fmt: A8R8G8B8
+{05:37:53.352} INFO: [Renderer]   | Texture streaming mem 0 MB
+{05:37:53.352} INFO: [INFO]       > Texture streaming buffer set to 0MB
+{05:37:53.352} INFO: [INFO]       > Texture streaming lowest priority distance set to 100m
+{05:37:53.704} DEBG: [DXGI]       > WM_SIZE 0, 2560x1440
+{05:37:53.706} INFO: [INFO]       > CGame::AppWindowInit: window client area: 0x0, 2560x1440
+{05:37:53.706} DEBG: [DXGI]       > [RChangeDeviceState] 2560x1440, 1.000000, borderless, 0/0 Hz
+{05:37:53.706} DEBG: [DXGI]       >                  was 1920x1080, 1.000000, , 0/1 Hz
+{05:37:53.710} DEBG: [DXGI]       > WM_SIZE 0, 0x0
+{05:37:53.712} DEBG: [DXGI]       > WM_SIZE 0, 2560x1440
+{05:37:54.396} INFO: [INFO]       > Texture streaming buffer set to 4000MB
+{05:37:54.397} INFO: [Video]      > //Video settings:
+{05:37:54.397} INFO: [Video]      > RendererMode("d3d11")
+{05:37:54.397} INFO: [Video]      > AsyncCompute(0)
+{05:37:54.397} INFO: [Video]      > WindowMode(1)
+{05:37:54.397} INFO: [Video]      > Resolution(2560,1440)
+{05:37:54.397} INFO: [Video]      > Scale3D(1.000000)
+{05:37:54.397} INFO: [Video]      > FSR(0.450000)
+{05:37:54.397} INFO: [Video]      > Upscaler(0)
+{05:37:54.397} INFO: [Video]      > Upscaling(2)
+{05:37:54.397} INFO: [Video]      > Monitor(0)
+{05:37:54.397} INFO: [Video]      > DisableDWM(0)
+{05:37:54.397} INFO: [Video]      > TextureQuality("High")
+{05:37:54.397} INFO: [Video]      > ShadowMapSize(924)
+{05:37:54.397} INFO: [Video]      > SpotShadowMapSize(4096)
+{05:37:54.397} INFO: [Video]      > GammaFloat(1.00)
+{05:37:54.397} INFO: [Video]      > GrassQuality(0)
+{05:37:54.397} INFO: [Video]      > FrameRate(1)
+{05:37:54.397} INFO: [Video]      > MotionBlur(1)
+{05:37:54.397} INFO: [Video]      > MotionBlurQuality("High")
+{05:37:54.397} INFO: [Video]      > FilmGrain(0)
+{05:37:54.397} INFO: [Video]      > DistanceBlur(1)
+{05:37:54.397} INFO: [Video]      > AntiAliasing(1)
+{05:37:54.397} INFO: [Video]      > AntiAliasingQuality(1)
+{05:37:54.397} INFO: [Video]      > FogQuality(2)
+{05:37:54.397} INFO: [Video]      > ReflectionsQuality(2)
+{05:37:54.397} INFO: [Video]      > ContactShadowsQuality(4)
+{05:37:54.397} INFO: [Video]      > SpotShadowsQuality(2)
+{05:37:54.397} INFO: [Video]      > AmbientOcclusion(1)
+{05:37:54.397} INFO: [Video]      > AmbientOcclusionQuality(1)
+{05:37:54.397} INFO: [Video]      > ColorBlindMode(0)
+{05:37:54.397} INFO: [Video]      > GpuFxQuality(1)
+{05:37:54.398} INFO: [Video]      > VoxelGiQuality(3)
+{05:37:54.398} INFO: [ResPack]    > Free resource loading disabled
+{05:37:54.473} INFO: [ResPack]    > Acquired prefab data: 147856, 161992
+{05:37:54.473} INFO: [ResPack]    >  -> 0 prefabs, 32 presets available in engine_pc.rpack
+{05:37:55.296} INFO: [ResPack]    > Acquired prefab data: 12557784, 10596232
+{05:37:55.317} INFO: [ResPack]    >  -> 1081 prefabs, 184 presets available in common_prefabs_pc.rpack
+{05:37:55.586} INFO: [INFO]       > [Input] Keyboard 0 enumerated: intance_name = Keyboard, product_name = Keyboard, GUID = {6f1d2b61-d5a0-11cf-bfc7-444553540000}
+{05:37:55.639} INFO: [INFO]       > [CInput::SelectKeyboard] Keyboard 0 selected: Keyboard, Keyboard
+{05:37:55.743} INFO: [INFO]       > Bink filename: IntroLogos_4k.bik
+{05:37:57.480} INFO: [INFO]       > [gpufx] preloaded 1019 sequences. It took 1490.749023 ms
+{05:37:57.480} RETL: [Game] > game version: '1.0.6', '1.0.202202141916'
+{05:38:10.480} INFO: [INFO]       > Bink filename: GameIntro_4k.bik
+{05:38:19.755} RETL: [Savegame] > ScanForSavegames: saves 2 (prev value -1)
+{05:38:21.622} RETL: [Savegame] > Continue save update finished (SUCCEEDED): save 'save_main_0.sav' found, all_scanned_saves 2
+{05:38:28.480} RETL: [Game]     > ===== CreateSession ===== 
+{05:38:29.694} INFO: [ResPack]    > Acquired prefab data: 106165472, 42357864
+{05:38:29.808} INFO: [ResPack]    >  -> 8689 prefabs, 568 presets available in city_persistent_pc.rpack
+{05:38:29.845} INFO: [ResPack]    > Acquired prefab data: 2687000, 1309528
+{05:38:29.850} INFO: [ResPack]    >  -> 181 prefabs, 43 presets available in prologue_persistent_pc.rpack
+{05:38:29.873} RETL: [Savegame] > SessionContextState: 'OnCreate' [game_type 'Campaign', game_mode 'Coop', save_name 'save_main_0.sav' (slot 0), map 'city' (id:761188051), (first), difficulty [current: Normal, savegame: Normal, min_savegame: Normal, initial: Normal, lobby_settings: Normal], save_version 73, build: '1.0.202202141916 / 2', perforce_stream: '//tech/rel-ph-patch1-pc']
+{05:38:33.649} INFO: [Video]      > //Video settings:
+{05:38:33.649} INFO: [Video]      > RendererMode("d3d11")
+{05:38:33.649} INFO: [Video]      > AsyncCompute(0)
+{05:38:33.649} INFO: [Video]      > WindowMode(1)
+{05:38:33.649} INFO: [Video]      > Resolution(2560,1440)
+{05:38:33.649} INFO: [Video]      > Scale3D(1.000000)
+{05:38:33.649} INFO: [Video]      > FSR(0.450000)
+{05:38:33.649} INFO: [Video]      > Upscaler(0)
+{05:38:33.649} INFO: [Video]      > Upscaling(2)
+{05:38:33.649} INFO: [Video]      > Monitor(0)
+{05:38:33.649} INFO: [Video]      > DisableDWM(0)
+{05:38:33.649} INFO: [Video]      > TextureQuality("High")
+{05:38:33.649} INFO: [Video]      > ShadowMapSize(924)
+{05:38:33.649} INFO: [Video]      > SpotShadowMapSize(4096)
+{05:38:33.649} INFO: [Video]      > GammaFloat(1.00)
+{05:38:33.649} INFO: [Video]      > GrassQuality(0)
+{05:38:33.649} INFO: [Video]      > FrameRate(1)
+{05:38:33.649} INFO: [Video]      > MotionBlur(1)
+{05:38:33.649} INFO: [Video]      > MotionBlurQuality("High")
+{05:38:33.649} INFO: [Video]      > FilmGrain(0)
+{05:38:33.649} INFO: [Video]      > DistanceBlur(1)
+{05:38:33.649} INFO: [Video]      > AntiAliasing(1)
+{05:38:33.649} INFO: [Video]      > AntiAliasingQuality(1)
+{05:38:33.649} INFO: [Video]      > FogQuality(2)
+{05:38:33.649} INFO: [Video]      > ReflectionsQuality(2)
+{05:38:33.649} INFO: [Video]      > ContactShadowsQuality(4)
+{05:38:33.649} INFO: [Video]      > SpotShadowsQuality(2)
+{05:38:33.649} INFO: [Video]      > AmbientOcclusion(1)
+{05:38:33.649} INFO: [Video]      > AmbientOcclusionQuality(1)
+{05:38:33.649} INFO: [Video]      > ColorBlindMode(0)
+{05:38:33.649} INFO: [Video]      > GpuFxQuality(1)
+{05:38:33.649} INFO: [Video]      > VoxelGiQuality(3)
+{05:38:36.630} RETL: [Game]     > >>>>> <1307435561> Changing level from <> to <city>
+{05:38:39.771} RETL: [Savegame] > SessionContextState: 'OnUpdate after ChangeMap' [game_type 'Campaign', game_mode 'Coop', save_name 'save_main_0.sav' (slot 0), map 'city' (id:761188051), (first), difficulty [current: Normal, savegame: Normal, min_savegame: Normal, initial: Normal, lobby_settings: Normal], save_version 73, build: '1.0.202202141916 / 2', perforce_stream: '//tech/rel-ph-patch1-pc']
+{05:38:39.876} RETL: [Game]     > >>>>> <1307435561> Performing load - mode <NormalFromMainMenu>
+{05:38:39.876} RETL: [Savegame] > File name 'save_main_0.sav', memory_save->size = 0
+{05:38:39.895} RETL: [Savegame] > Loading finished (ESgErr::Ok).
+{05:38:39.895} RETL: [Savegame] > Applying loaded data: Original version: [save_version 72, build: '1.0.202202071214 / 2', perforce_stream: '//tech/rel-ph-patch1-pc'], Source version: [save_version 73, build: '1.0.202202141916 / 2', perforce_stream: '//tech/rel-ph-patch1-pc'], Current version: [save_version 73, build: '1.0.202202141916 / 2', perforce_stream: '//tech/rel-ph-patch1-pc']
+{05:38:39.895} RETL: [Savegame] > Updated SessionContext [session_id 1293025094, time_played 122627493, campaign_finished true, finished_difficulty 2]
+{05:38:40.320} RETL: [Savegame] > RestoreStoryState result: 'true'.
+{05:38:40.321} RETL: [Savegame] > SpawnSpot: Spawnpoint, map: 'city', map_area: 'city/^R2_3_Zone_07_MapZone', spawn_point: city/^ow_postapo_ruins_reg02_23/PK/geo/~25
+{05:38:40.458} RETL: [Savegame] > Applying loaded data finished (result: true)
+{05:38:43.059} INFO: [ResPack]    > Acquired prefab data: 35373120, 15041136
+{05:38:43.109} INFO: [ResPack]    >  -> 9251 prefabs, 0 presets available in reg_02_pc.rpack
+{05:38:43.153} INFO: [ResPack]    > Acquired prefab data: 46056, 25728
+{05:38:43.153} INFO: [ResPack]    >  -> 22 prefabs, 0 presets available in reg_buffer_02_05_a_pc.rpack
+{05:38:43.155} INFO: [ResPack]    > Acquired prefab data: 368992, 141216
+{05:38:43.156} INFO: [ResPack]    >  -> 183 prefabs, 0 presets available in reg_buffer_02_05_b_pc.rpack
+{05:38:43.159} INFO: [ResPack]    > Acquired prefab data: 535832, 207488
+{05:38:43.159} INFO: [ResPack]    >  -> 123 prefabs, 0 presets available in reg_buffer_01_05_pc.rpack
+{05:38:43.161} INFO: [ResPack]    > Acquired prefab data: 131624, 64608
+{05:38:43.161} INFO: [ResPack]    >  -> 59 prefabs, 0 presets available in reg_buffer_05_06_pc.rpack
+{05:38:43.178} INFO: [ResPack]    > Acquired prefab data: 1800416, 752040
+{05:38:43.182} INFO: [ResPack]    >  -> 692 prefabs, 0 presets available in reg_buffer_01_04_pc.rpack
+{05:38:43.214} INFO: [ResPack]    > Acquired prefab data: 2256760, 754928
+{05:38:43.217} INFO: [ResPack]    >  -> 819 prefabs, 0 presets available in reg_buffer_02_04a_pc.rpack
+{05:38:43.230} INFO: [ResPack]    > Acquired prefab data: 875616, 330280
+{05:38:43.232} INFO: [ResPack]    >  -> 437 prefabs, 0 presets available in reg_buffer_02_04b_pc.rpack
+{05:38:43.243} INFO: [ResPack]    > Acquired prefab data: 1724824, 722736
+{05:38:43.246} INFO: [ResPack]    >  -> 764 prefabs, 0 presets available in reg_buffer_02_03b_pc.rpack
+{05:38:43.263} INFO: [ResPack]    > Acquired prefab data: 1216672, 457288
+{05:38:43.265} INFO: [ResPack]    >  -> 563 prefabs, 0 presets available in reg_buffer_02_03_pc.rpack
+{05:38:43.271} INFO: [ResPack]    > Acquired prefab data: 389832, 144960
+{05:38:43.272} INFO: [ResPack]    >  -> 119 prefabs, 0 presets available in reg_buffer_04_a_b_pc.rpack
+{05:40:30.958} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:40:30.958} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_canteen_pc.rpack
+{05:43:26.764} INFO: [INFO]       > Bink filename: tool_grapplehook.bik
+{05:44:41.921} INFO: [ResPack]    > Acquired prefab data: 32967768, 13857440
+{05:44:41.965} INFO: [ResPack]    >  -> 6313 prefabs, 0 presets available in reg_01_pc.rpack
+{05:44:42.007} INFO: [ResPack]    > Acquired prefab data: 283312, 106608
+{05:44:42.007} INFO: [ResPack]    >  -> 140 prefabs, 0 presets available in reg_buffer_01_02_pc.rpack
+{05:44:55.819} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:44:55.819} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{05:45:45.851} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:45:45.851} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{05:48:58.862} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:48:58.863} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{05:49:17.381} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:49:17.381} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{05:49:22.762} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:49:22.762} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{05:50:36.810} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:50:36.810} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{05:52:31.254} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:52:31.254} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{05:52:56.865} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:52:56.865} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{05:54:21.286} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:54:21.286} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{05:54:35.371} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:54:35.372} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_biiyc_pc.rpack
+{05:59:31.983} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{05:59:31.983} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{06:01:35.793} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{06:01:35.793} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_markers_pc.rpack
+{06:02:59.436} INFO: [ResPack]    > Acquired prefab data: 552, 224
+{06:02:59.436} INFO: [ResPack]    >  -> 1 prefabs, 0 presets available in reg_pin_bazaar_pc.rpack
+{06:14:36.340} RETL: [Game]     > ===== DestroySession ===== (reason: 'OnQuitGame')
+{06:14:42.081} INFO: [Video]      > //Video settings:
+{06:14:42.081} INFO: [Video]      > RendererMode("d3d11")
+{06:14:42.081} INFO: [Video]      > AsyncCompute(0)
+{06:14:42.081} INFO: [Video]      > WindowMode(1)
+{06:14:42.081} INFO: [Video]      > Resolution(2560,1440)
+{06:14:42.081} INFO: [Video]      > Scale3D(1.000000)
+{06:14:42.081} INFO: [Video]      > FSR(0.450000)
+{06:14:42.081} INFO: [Video]      > Upscaler(0)
+{06:14:42.081} INFO: [Video]      > Upscaling(2)
+{06:14:42.081} INFO: [Video]      > Monitor(0)
+{06:14:42.081} INFO: [Video]      > DisableDWM(0)
+{06:14:42.081} INFO: [Video]      > TextureQuality("High")
+{06:14:42.081} INFO: [Video]      > ShadowMapSize(924)
+{06:14:42.081} INFO: [Video]      > SpotShadowMapSize(4096)
+{06:14:42.081} INFO: [Video]      > GammaFloat(1.00)
+{06:14:42.081} INFO: [Video]      > GrassQuality(0)
+{06:14:42.081} INFO: [Video]      > FrameRate(1)
+{06:14:42.081} INFO: [Video]      > MotionBlur(1)
+{06:14:42.081} INFO: [Video]      > MotionBlurQuality("High")
+{06:14:42.081} INFO: [Video]      > FilmGrain(0)
+{06:14:42.081} INFO: [Video]      > DistanceBlur(1)
+{06:14:42.081} INFO: [Video]      > AntiAliasing(1)
+{06:14:42.081} INFO: [Video]      > AntiAliasingQuality(1)
+{06:14:42.081} INFO: [Video]      > FogQuality(2)
+{06:14:42.081} INFO: [Video]      > ReflectionsQuality(2)
+{06:14:42.081} INFO: [Video]      > ContactShadowsQuality(4)
+{06:14:42.081} INFO: [Video]      > SpotShadowsQuality(2)
+{06:14:42.081} INFO: [Video]      > AmbientOcclusion(1)
+{06:14:42.081} INFO: [Video]      > AmbientOcclusionQuality(1)
+{06:14:42.081} INFO: [Video]      > ColorBlindMode(0)
+{06:14:42.081} INFO: [Video]      > GpuFxQuality(1)
+{06:14:42.081} INFO: [Video]      > VoxelGiQuality(3)
+{06:14:44.239} RETL: [Savegame] > Continue save update finished (SUCCEEDED): save 'save_main_0.sav' found, all_scanned_saves 2
+{06:14:50.025} INFO: [INFO]       > ---------------------------------------------------------
+{06:14:50.025} INFO: [INFO]       > Time of playing game: 2217.989990s
+{06:14:50.025} INFO: [INFO]       > Updated frames: 130469 Rendered frames: 130150
+{06:14:50.025} INFO: [INFO]       > Average FPS: 58.679253
+{06:14:50.025} INFO: [INFO]       > ---------------------------------------------------------
+{06:14:52.609} INFO: [Renderer]   > [r_Shutdown] Dll released
